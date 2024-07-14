@@ -41,7 +41,6 @@ function App() {
     setLabel("");
     setCategory("");
     setIsUrgent(false);
-    
   };
   const handleDeleteTask = (index: number) => {
     const filteredTasks = tasks.filter((task: any, i: number) => {
